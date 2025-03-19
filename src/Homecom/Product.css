@@ -1,0 +1,78 @@
+.container{
+    display: flex;
+    flex-wrap:wrap ;
+    margin-top:60vh ;
+    background: none;
+    justify-content: center;
+}
+.card{
+    height: 50vh;
+    width: 22vw;
+    background: white;
+     mask-image: linear-gradient(to bottom, rgba(10, 10, 10,11), rgba(100, 10, 10, 10));
+     color: white;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:2vw;
+    margin-bottom: 5vh;
+}
+.glass {
+    backdrop-filter: blur(24px);
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(162.29deg, rgba(62, 60, 88, 0.64) 0.99%, rgba(23, 22, 40, 0) 179.83%);
+}
+.horzon{
+    width: 90vw;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    padding: 3vw ;
+     margin-left:0.6vw;
+    margin-bottom: 3vw;
+    color: white;
+}
+.horizoncard2{
+    width: 96vw;
+    /* height: vw; */
+    justify-content: center;
+    flex-direction: row;
+    background: white;
+    overflow-x: auto;
+    margin-bottom: 4vh;
+}
+
+
+
+.pointer {
+  cursor: pointer;
+}
+.set{
+    display: flex;
+    height: 17vw;
+}
+.horizoncard3{
+    width: 96vw;
+    height: 80vh;
+    justify-content: center;
+    flex-direction: row;
+    background: white;
+    overflow-x: auto;
+    margin-bottom: 4vh;
+}
+.content{
+    color: rgb(21, 190, 233);
+    cursor: pointer;
+}
+.content:hover{
+    color: rgb(156, 58, 58);
+}
+.set{
+    margin: 3vw;
+}
+.set2{
+    margin: 0vw 0.7vw;
+}

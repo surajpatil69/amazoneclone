@@ -1,0 +1,50 @@
+.carousel {
+    width: 100%;
+    height: 700px;
+    padding: 16.4vh 0vh;
+ position: absolute;
+     background: rgb(221, 217, 217);
+    
+}
+
+.carouselInner {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+      z-index: -1;
+      /* margin-bottom: -150px; */
+      mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+
+}
+
+.carouselInner .left {
+    flex: 5%;
+    height: 100%;
+ 
+    display: grid;
+    place-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.carouselInner .center {
+    flex: 80%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    text-align: justify;
+    text-align-last: center;
+}
+
+
+.carouselInner .right {
+    flex: 5%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    color: white;
+    cursor: pointer;
+}
